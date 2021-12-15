@@ -1,0 +1,248 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+
+
+<body class="bg-light">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid">
+                        <img src="image/logo2.png" alt="img" width="">
+                            <h1 class="text-light display-3 fw-bold">FunBook</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/head">Test</a>
+                                </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="/book">Livre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/contact">Contact</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/signup">Inscription</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/login">Connexion</a>
+                                </li>
+                                
+                            </ul>
+                            <form class="d-flex">
+                                <input
+                                    class="form-control me-2"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <button class="btn btn-outline-light" type="submit">
+                                    Search
+                                </button>                      
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid p-0">         
+            <div id="slider" class="carousel slide carou-height" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/chien.jpg" class="d-block w-100 img-fluid" alt="">
+                        <div class="carousel-caption">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/fantaisie.jpg" class="d-block w-100 img-fluid" alt="">
+                        <div class="carousel-caption ">
+                            <h1></h1>
+                            <p>.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/bureau.jpg" class="d-block w-100 img-fluid" alt="">
+                        <div class="carousel-caption">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#slider"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#slider"
+                    data-bs-slide="next">
+                    <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>                 
+                </button>
+            </div>
+            
+        </div>
+        <div class="container pt-5 px-4">
+            <h1><img src="image/logo2.png" alt="Catégorie de livre" class="ico_categorie" height="55px" width="55px" />Découverte de mon site FunBook</h1>
+            <div class="corps row g-5">
+                <div class="col-12 col-lg-8">
+                
+                    <hr>
+             
+                            <div class="col-12 col-lg-10">
+                                
+                                <h2 class="display-4">Création</h2>                    
+                                 <p class="fs-5">Créer ses histoire réelles ou virtuelle, faire son audio, trouver ses images ou les créer pour les faire défiler selon son style </p>              
+                            </div>
+                            <div class="col-12 col-lg-10">
+                                
+                                <h2 class="display-4"><a href="/Livre/livre.html" class=" text-dark text-decoration-none">Livre</a></h2>                       
+                                <p class="fs-5">Trouver ses livres selon les auteurs, les dates de création, les genres, les pays et les langues</p>               
+                            </div>                                                                                     
+                        
+                 
+                </div>
+                <div class="col-11 mx-auto col-lg-4 offset-lg-1 p-3 shadow-sm align-self-start ">
+                    
+                    <aside class="p-4">
+                        <h5 class="text-center mb-4">À propos de l'auteur</h5>
+                      
+                        <p id="photo_gladiator" class="mb-4"><img src="image/gladiator.jpg" alt="Photo de gladiator" class="img-cover" style="height: 300px;"/></p>
+                        <p class="fs-5 mb-5">Laisse-moi le temps de me présenter&nbsp;: je m'appelle Jonathan. Je suis actuellemnt une formation de développeur web.
+                          Voici mon projet de site web Funbook un site de livre en ligne.
+                        </p>
+                        
+                        <p class="text-center"><a href="https://www.facebook.com/"><img src="image/facebook.png" alt="Facebook" /></a>
+                            <a href="https://twitter.com/?lang=fr"><img src="image/twitter.png" alt="Twitter" /></a>
+                            <a href="https://www.instagram.com/?hl=fr"><img src="image/instagram1.png" alt="Instagram" /></a>
+                            <a href="https://www.linkedin.com/feed/"><img src="image/linkedin1.png" alt="LinkedIn" /></a>
+                            <a href="https://www.whatsapp.com/?lang=fr"><img src="image/whatsapp1.png" alt="RSS" /></a></p>
+                    </aside>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="text-center text-lg-start text-light bg-dark mt-5">
+        
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          
+          <div class="me-5 d-none d-lg-block">
+            <span>Connectez-vous avec nous sur les réseaux sociaux :</span>
+          </div>
+          
+          <div>
+            <a href="https://www.facebook.com/" class="me-4 text-reset">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.google.fr/webhp?authuser=0" class="me-4 text-reset">
+                <i class="bi bi-google"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr" class="me-4 text-reset">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="me-4 text-reset">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/" class="me-4 text-reset">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+          
+        </section>
+        
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            
+            <div class="row mt-3">
+              
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+               
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>FunBook
+                </h6>
+                <p>
+                    Le site web FunBook est un site communautaire de partage de livre en ligne 
+                    où les membres peuvent lire facilement des livres, 
+                    peuvent créer des histoires et peuvent partager des avis sur la littérature.
+                </p>
+              </div>
+              
+            
+              
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Aide links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Témoinages</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Aide en ligne</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Patreon</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Parrainage</a>
+                </p>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+                
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  jonathan.datil@gmail.com
+                </p>
+    
+              </div>
+             
+            </div>
+           
+          </div>
+        </section>
+        
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="#">Mentions légales</a>
+        </div>
+        
+      </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+{% endblock %}

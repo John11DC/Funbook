@@ -1,0 +1,194 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Connexion{% endblock %}
+
+{% block body %}
+
+
+<body class="bg-light">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid">
+                        <img src="image/logo2.png" alt="img" width="">
+                            <h1 class="text-light display-3 fw-bold">FunBook</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/head">Test</a>
+                                </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="/book">Livre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/contact">Contact</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/signup">Inscription</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/login">Connexion</a>
+                                </li>
+                                
+                            </ul>
+                            <form class="d-flex">
+                                <input
+                                    class="form-control me-2"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <button class="btn btn-outline-light" type="submit">
+                                    Search
+                                </button>                      
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+            <div class="container shadow-lg p-3 mt-5 mb-5 bg-white rounded col-md-6">
+				<form action="#" method="POST">
+					<header class="bg-dark text-light p-3 ">Connexion</header>
+					<hr>
+					
+					<div class="col-md-12">
+						<label for="name" class="form-label">Votre nom*</label> <br> 
+						<input class="form-control" type="text" name="pseudo" id="pseudo1"  placeholder="Nom complet" required><br>
+					</div>
+					<div class="col-md-12">
+						<label for="name" class="form-label">Votre prénom*</label> <br> 
+						<input class="form-control" type="text" name="pseudo" id="pseudo2"  placeholder="Prénom complet"><br>
+					</div>
+					<div class="col-md-12">
+						<label for="email" class="form-label">Votre e-mail*</label> <br> 
+						<input class="form-control" type="mail" name="mail" id="mail" placeholder="adresse@exemple.com" required><br>
+					</div>
+				
+					<div class="col-md-12">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="check" >
+							<label class="form-check-labelt" for="check"></label>
+							Rester connecter toujours connecter
+						</div> <br>
+					</div>
+					<div class="col-md-12 ">
+						<input type="submit" value="Envoyer" class="btn btn-primary"/>	
+					</div>
+				
+		
+				</form>
+				
+            </div>
+        </main>
+    <footer class="text-center text-lg-start text-light bg-dark mt-5">
+        
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          
+          <div class="me-5 d-none d-lg-block">
+            <span>Connectez-vous avec nous sur les réseaux sociaux :</span>
+          </div>
+          
+          <div>
+            <a href="https://www.facebook.com/" class="me-4 text-reset">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.google.fr/webhp?authuser=0" class="me-4 text-reset">
+                <i class="bi bi-google"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr" class="me-4 text-reset">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="me-4 text-reset">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/" class="me-4 text-reset">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+          
+        </section>
+        
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            
+            <div class="row mt-3">
+              
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+               
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>FunBook
+                </h6>
+                <p>
+                    Le site web FunBook est un site communautaire de partage de livre en ligne 
+                    où les membres peuvent lire facilement des livres, 
+                    peuvent créer des histoires et peuvent partager des avis sur la littérature.
+                </p>
+              </div>
+              
+            
+              
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Aide links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Témoinages</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Aide en ligne</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Patreon</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Parrainage</a>
+                </p>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+                
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  jonathan.datil@gmail.com
+                </p>
+    
+              </div>
+             
+            </div>
+           
+          </div>
+        </section>
+        
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="#">Mentions légales</a>
+        </div>
+        
+      </footer>
+{% endblock %}

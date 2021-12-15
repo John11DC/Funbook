@@ -1,0 +1,339 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Livre audio{% endblock %}
+
+{% block body %}
+
+<body class="bg-light">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid">
+                        <img src="image/logo2.png" alt="img" width="">
+                            <h1 class="text-light display-3 fw-bold">FunBook</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/head">Test</a>
+                                </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="/book">Livre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/contact">Contact</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/signup">Inscription</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/login">Connexion</a>
+                                </li>
+                                
+                            </ul>
+                            <form class="d-flex">
+                                <input
+                                    class="form-control me-2"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <button class="btn btn-outline-light" type="submit">
+                                    Search
+                                </button>                      
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+			<div id="head2">
+				<nav aria-label="breadcrumb primary">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="accueil.html">Accueil</a></li>
+						<li class="breadcrumb-item" aria-current="page">
+							<a href="audio.html">
+								<span class="text-primary">Livre Audio</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container shadow-lg p-3 mb-5 bg-white rounded">
+				<h1 class="text-center mt-5 mb-5">Livre Audio</h1>
+				<h5 class="text-center col-11 mt-5 mb-2">
+					DAUDET, Alphonse – Les Trois Corbeaux – Épilogue
+				</h5>
+				<div
+					class="
+						card
+						shadow
+						p-3
+						mb-5
+						bg-white
+						rounded
+						col-11
+						flex-row flex-wrap
+						ms-5
+						me-5
+					"
+				>
+					<div class="row col-6 col-md-12">
+						<div class="col-7">
+							<div class="card-body">
+								<p class="card-text fs-5">
+									Les Trois Corbeaux « C’est le soir d’un jour de bataille. Du
+									choc des deux armées, la nature est encore agitée tout autour.
+									L’haleine enflammée des canons flotte sur la campagne en
+									lourds nuages roux. Dans les sillons de neige, la bataille a
+									semé des morts. les capotes grises ont des plis, des
+									enroulements d’agonie...
+								</p>
+								<p class="card-text fs-5">
+									Épilogue « La table est hospitalière, bien servie, bien
+									entourée. La lumière des deux grandes lampes s’abat, éclatante
+									et blanche, sur une nappe lustrée. Et les vidages, éclairés à
+									la hauteur des yeux, sortent en cercle de l’ombre, paisibles,
+									souriants, épanouis. C’est la fin d’un repas d’amis, l’heure
+									des effusions, des chaleurs de cœur. Tout à coup, la scène
+									change. La table semble agrandie, aussi plus sombre. Les
+									coudes qui se touchaient fraternellement s’écartent les uns
+									des autres. Qu’est-ce qu’il y a donc ? Qu’est-ce qui arrive ?
+									»
+								</p>
+								<div class="mp3">
+									<strong>Les Trois Corbeaux</strong><br />
+									<a
+										class="link-mp3-files"
+										href="/Livre audio/audio/Alphonse_Daudet_-_les_trois_corbeaux.mp3"
+										>Télécharger le fichier mp3 ici</a
+									>
+								</div>
+								<div class="mp3">
+									<strong>Épilogue</strong><br />
+									<a
+										class="link-mp3-files"
+										href="/Livre audio/audio/Alphonse_Daudet_-_Etudes_et_paysages_Epilogue.mp3"
+										>Télécharger le fichier mp3 ici</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-5">
+							<img src="/Livre audio/image/daudet.jpg" class="img-fluid" alt="..." />
+						</div>
+					</div>
+				</div>
+
+				<h5 class="text-center col-11 mt-5 mb-2">
+					HUYSMANS, Joris-Karl – Les Habitués De Café – Le Quartier Notre-Dame
+				</h5>
+				<div
+					class="
+						card
+						shadow
+						p-3
+						mb-5
+						bg-white
+						rounded
+						col-11
+						flex-row flex-wrap
+						ms-5
+						me-5
+					"
+				>
+					<div class="col-12 d-flex justify-content-center">
+						<img
+							src="/Livre audio/image/quartier_notre_dame.png"
+							class="img-fluid"
+							alt="..."
+						/>
+					</div>
+					<div class="col-12">
+						<div class="card-body">
+							<p class="card-text fs-5">
+								Joris-Karl Huysmans, outre ses grands romans, nous a laissé des
+								recueils d’essais et de nouvelles comme Croquis parisiens, Le
+								Drageoir à épices ou De tout (1902) d’où sont extraits ces deux
+								récits critiques : Les Habitués de café et Le Quartier
+								Notre-Dame. Huysmans est attiré par l’atmosphère des cafés (cf.
+								Un café, Une goguette et dans Les Habitués de café). Il
+								distingue plusieurs catégories de clients qui ont tous droit à
+								ses attaques. « Les uns fréquentent régulièrement tel café, afin
+								d’entretenir une clientèle qui s’y désaltère, d’amorcer des
+								commandes ou d’apprêter avec d’autres habitués quelques-uns de
+								ses spécieux larcins que la langue commerciale qualifie de «
+								bonnes affaires ». Les autres y vont pour satisfaire leur
+								passion du jeu, poussent sur le pré tondu d’un billard de
+								bruyantes billes, remuent d’aigres dominos, de fracassants
+								jackets, ou graissent, en se disputant, de silencieuses cartes.
+								D’autres fuient dans ces réunions les maussaderies d’un ménage
+								où le dîner n’est jamais prêt, où la femme bougonne au-dessus
+								d’un enfant qui crie. D’autres viennent simplement pour
+								ingurgiter les contenus variés de nombreux verres. D’autres
+								encore recherchent des personnes résignées sur lesquelles ils
+								puissent déverser les bavardages politiques dont ils sont
+								pleins. D’autres enfin, célibataires, ne veulent point dépenser
+								chez eux de l’huile, du charbon, un journal, et ils réalisent
+								d’incertaines économies… Qui ne les connaît ces habitués ? » Le
+								café Caron échappe à ses quolibets, mais « le café Caron est
+								mort de misère et a été naturellement remplacé dans la rue des
+								Saints-Pères par un bas zinc ; ses habitués errèrent pendant
+								quelques jours, ne sachant plus que devenir, puis ils émigrèrent
+								dans un lieu presque semblable, mais gâté pourtant par un
+								élément militaire, au café d’Orsay, situé au coin de la rue du
+								Bac et du quai ; ce café moribondait quand ils y vinrent et ils
+								l’achevèrent ; une inéluctable faillite l’emporta ; ce fut la
+								fin de tout. Et depuis lors l’âme des habitués se désempare. »
+								Désolation aussi du poète devant l’état de Notre Dame de Paris
+								dans Le Quartier Notre-Dame. « Avec sa façade noire et nue, elle
+								dégage une impression de mésaise et de froid ; elle est une
+								basilique hivernale ; on ne la sent point aimer ce Paris qu’elle
+								domine ; elle n’a pas ce geste de Notre-Dame de Chartres dont
+								les deux clochers semblent les doigts levés des vieux évêques
+								prêts à bénir la ville agenouillée à leurs pieds ; ses bras, à
+								elle, se dressent et ils menacent plus qu’ils n’implorent. [...]
+								Notre époque, qui voulut soigner Notre-Dame, s’est bornée, pour
+								sa part, à la gratter et à la rafistoler du haut en bas. Ces
+								chapelles qui furent toujours pleines de fidèles au temps où le
+								peuple croyait en Notre Seigneur sont toutes les quatre mortes ;
+								la cathédrale subsiste seule, maintenant et elle est, elle-même,
+								du soir au matin, déserte. Les passagers – parmi les vivants –
+								sont des touristes qui croassent en feuilletant des guides, et –
+								parmi les défunts– des cadavres venus de l’Hôtel-Dieu voisin,
+								des dépouilles sans le sou et que l’on expédie, au galop, Dieu
+								sait comme ! » Pour effacer ces vues pessimistes, écoutez le
+								même Huysmans dans l’ouvrage posthume (1908) La Symbolique de
+								Notre-Dame de Paris.
+							</p>
+							<div class="mp3">
+								<strong>Les Habitués de café</strong><br />
+								<a
+									class="link-mp3-files"
+									href="/Livre audio/audio/Huysmans_-_Les_habitues_de_cafe.mp3"
+									>Télécharger le fichier mp3 ici</a
+								>
+							</div>
+							<div class="mp3">
+								<strong>Le Quartier Notre-Dame</strong><br />
+								<a
+									class="link-mp3-files"
+									href="/Livre audio/audio/Huysmans_-_Le_quartier_Notre_Dame.mp3"
+									>Télécharger le fichier mp3 ici</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+    <footer class="text-center text-lg-start text-light bg-dark mt-5">
+        
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          
+          <div class="me-5 d-none d-lg-block">
+            <span>Connectez-vous avec nous sur les réseaux sociaux :</span>
+          </div>
+          
+          <div>
+            <a href="https://www.facebook.com/" class="me-4 text-reset">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.google.fr/webhp?authuser=0" class="me-4 text-reset">
+                <i class="bi bi-google"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr" class="me-4 text-reset">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="me-4 text-reset">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/" class="me-4 text-reset">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+          
+        </section>
+        
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            
+            <div class="row mt-3">
+              
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+               
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>FunBook
+                </h6>
+                <p>
+                    Le site web FunBook est un site communautaire de partage de livre en ligne 
+                    où les membres peuvent lire facilement des livres, 
+                    peuvent créer des histoires et peuvent partager des avis sur la littérature.
+                </p>
+              </div>
+              
+            
+              
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Aide links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Témoinages</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Aide en ligne</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Patreon</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Parrainage</a>
+                </p>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+                
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  jonathan.datil@gmail.com
+                </p>
+    
+              </div>
+             
+            </div>
+           
+          </div>
+        </section>
+        
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="#">Mentions légales</a>
+        </div>
+        
+      </footer>
+{% endblock %}

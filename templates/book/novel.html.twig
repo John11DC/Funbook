@@ -1,0 +1,282 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Roman{% endblock %}
+
+{% block body %}
+
+
+<body class="bg-light">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="col navbar navbar-expand-lg navbar-dark bg-primary">
+                    <div class="container-fluid">
+                        <img src="image/logo2.png" alt="img" width="">
+                            <h1 class="text-light display-3 fw-bold">FunBook</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="/head">Test</a>
+                                </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link text-light" href="/book">Livre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/contact">Contact</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/signup">Inscription</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="/login">Connexion</a>
+                                </li>
+                                
+                            </ul>
+                            <form class="d-flex">
+                                <input
+                                    class="form-control me-2"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <button class="btn btn-outline-light" type="submit">
+                                    Search
+                                </button>                      
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+			<div id="head2">
+				<nav aria-label="breadcrumb primary">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="accueil.html">Accueil</a></li>
+						<li class="breadcrumb-item" aria-current="page">
+							<a href="roman.html">
+								<span class="text-primary">Roman</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container shadow-lg p-3 mb-5 bg-white rounded">
+				<h1 class="text-center mt-5 mb-5">Roman</h1>
+				<h5 class="text-center col-11 mt-5 mb-2 fs-1">
+					Coraline Croquet – Les ombres de l’innocence (2021)
+				</h5>
+				<div
+					class="
+						card
+						shadow
+						p-3
+						mb-5
+						bg-white
+						rounded
+						col-11
+						flex-row flex-wrap
+						ms-5
+						me-5
+					"
+				>
+					<div class="row col-6 col-md-12">
+						<div class="col-7">
+							<div class="card-body">
+								<p class="card-text fs-5">
+									Quelques jours avant Noël, Vincent se fait enlever et est
+									passé à tabac dans les bois. Pourquoi? Il ne le sait pas. Mais
+									il sait que sa fille de 18 mois était toute seule dans sa
+									chambre… Laissé pour mort dans la forêt, il parvient néanmoins
+									à atteindre une maison et à demander de l’aide. La jeune femme
+									chez qui il vient de frapper s’appelle Emilie, elle est
+									infirmière et vit toute seule avec son chien. Refusant de
+									l’aider au départ, elle cède lorsque Vincent mentionne son
+									bébé, Emma. Mais si Vincent se croit tiré d’affaire, son
+									cauchemar ne fait en réalité que commencer. Emilie n’a pas
+									l’intention de le soigner, au contraire. Elle qui a toujours
+									rêvé d’avoir un enfant, elle y voit l’occasion de kidnapper le
+									bébé et d’enfin devenir maman. La jeune femme est prête à tout
+									pour obtenir ce qu’elle veut : les heures de torture
+									commencent pour Vincent…
+								</p>
+
+								<div class="mp3">
+									<a
+										class="fs-4 mt-5"
+										href="Coraline Croquet – Les ombres de linnocence (2021).pdf"
+										>Télécharger le fichier ici</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-5">
+							<img
+								src="/Roman/image/Coraline-Croquet-–-Les-ombres-de-linnocence-2021-668x1024.jpg"
+								class="img-fluid"
+								alt="..."
+							/>
+						</div>
+					</div>
+				</div>
+
+				<h5 class="text-center col-11 mt-5 mb-2 fs-1">
+					Shifrinne – Gangster, l’envers du décor (2021)
+				</h5>
+				<div
+					class="
+						card
+						shadow
+						p-3
+						mb-5
+						bg-white
+						rounded
+						col-11
+						flex-row flex-wrap
+						ms-5
+						me-5
+					"
+				>
+					<div class="row col-6 col-md-12">
+                        <div class="col-7">
+						<img
+							src="/Roman/image/Shifrinne-Gangster-lenvers-du-decor-2021.jpg"
+							class="img-fluid"
+							alt="..."
+						/>
+                        </div>
+				
+					<div class="col-5">
+						<div class="card-body">
+							<p class="card-text fs-4">
+								Au cœur des trafics et des décisions les plus secrètes de la
+								famille, le système rapporte des millions : machines à sous,
+								rackets, cocaïne. Les règlements de comptes sont monnaie
+								courante, et chacun est en danger. Dans un univers où les
+								alliances se font et se défont au rythme des meurtres, il devra
+								survivre dans ce qui deviendra la plus sanglante guerre des
+								clans que le milieu du grand banditisme n’aura jamais connue.
+							</p>
+							<div class="mp3">
+								
+								<a
+                                    class="fs-4 mt-5"
+									href="Shifrinne – Gangster, lenvers du décor (2021).pdf"
+									>Télécharger le fichier ici</a
+								>
+							</div>
+						</div>
+					</div>
+                </div>
+				</div>
+			</div>
+		</main>
+    <footer class="text-center text-lg-start text-light bg-dark mt-5">
+        
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          
+          <div class="me-5 d-none d-lg-block">
+            <span>Connectez-vous avec nous sur les réseaux sociaux :</span>
+          </div>
+          
+          <div>
+            <a href="https://www.facebook.com/" class="me-4 text-reset">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.google.fr/webhp?authuser=0" class="me-4 text-reset">
+                <i class="bi bi-google"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr" class="me-4 text-reset">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="me-4 text-reset">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/" class="me-4 text-reset">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=fr" class="me-4 text-reset">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+          
+        </section>
+        
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            
+            <div class="row mt-3">
+              
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+               
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>FunBook
+                </h6>
+                <p>
+                    Le site web FunBook est un site communautaire de partage de livre en ligne 
+                    où les membres peuvent lire facilement des livres, 
+                    peuvent créer des histoires et peuvent partager des avis sur la littérature.
+                </p>
+              </div>
+              
+            
+              
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Aide links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Témoinages</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Aide en ligne</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Patreon</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Parrainage</a>
+                </p>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+                
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  jonathan.datil@gmail.com
+                </p>
+    
+              </div>
+             
+            </div>
+           
+          </div>
+        </section>
+        
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="#">Mentions légales</a>
+        </div>
+        
+      </footer>
+{% endblock %}

@@ -7,6 +7,9 @@ doctrine:
         result_cache_driver:
             type: pool
             pool: doctrine.result_cache_pool
+    dbal:
+        options:
+            1002: "SET NAMES 'utf8mb4_unicode_ci'"
 
 framework:
     cache:
